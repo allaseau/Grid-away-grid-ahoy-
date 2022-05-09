@@ -1,5 +1,6 @@
 body{
     background-color: gainsboro;
+    font-family: roboto;
 }
 
 .item1 { grid-area: col1; }
@@ -21,10 +22,35 @@ body{
     gap: 35px;
     padding: 10px;
 }
-
 .box > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
     font-size: 30px;
+}
+h1{
+    font-size: medium;
+    text-align: center;
+}
+p{
+    font-size: medium;
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
+    color: grey;
+}
+button {
+    color: rgb(0, 0, 0);
+    font-size: 17px;  
+    padding: 10px;
+    border-radius: 20px; 
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(255, 255, 255);    
+    background-color: rgb(0, 149, 255);
+}
+img{
+    padding: 20px;
 }
